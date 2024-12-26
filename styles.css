@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.tile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.tile h3 {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#event-log {
+  overflow-y: scroll;
+  height: 10vh;
+}
